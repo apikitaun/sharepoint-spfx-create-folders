@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "upload-photo-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/uploadPhoto/UploadPhotoWebPart.js",
+          "manifest": "./src/webparts/uploadPhoto/UploadPhotoWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "UploadPhotoWebPartStrings": "lib/webparts/uploadPhoto/loc/{locale}.js"
+  }
+}

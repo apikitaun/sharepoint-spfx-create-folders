@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "upload-photo-test-client-side-solution",
+    "id": "9b19061a-efc0-4956-a4b1-fd533b6c6164",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true
+  },
+  "paths": {
+    "zippedPackage": "solution/upload-photo-test.sppkg"
+  }
+}
